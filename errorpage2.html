@@ -6,13 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
     <title>Document</title>
-    
+    <style>
+        header {
+            padding: 40px;
+        }
+        .logo {
+            float: left;
+            width: 130px;
+            height: 27px;
+            padding-left: 60px;
+        }
+        nav {
+            
+            float: right;
+            margin-right: 5%
+        }
+        a {
+            margin: 15px;
+            text-decoration: none;
+            color: black;
+            transition: 0.2s;
+        }
+        a:hover {
+            color: gray;
+        }
+        .err_img {
+            float: left;
+            width: 370px;
+            height: 510px;
+            padding: 100px;
+        }
+        .err_content {
+            margin: 200px 200px 0 0;
+            float: right;
+        }
+        .errTitle {
+            font-size: 60px;
+            letter-spacing: 6px;
+        }
+        p {
+            font-size: 20px;
+            color: gray
+        }
+    </style> 
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1 class="logoText">PIXAR</h1>
-        </div>
+        <img src="https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/0755a48b-bbaf-4dff-8e78-9b489106eec6/logo022.jpg?format=1500w" alt="" class="logo">
         <nav>
             <a href="#">FEAUTURE FILMS</a>
             <a href="#">SHROT FILMS</a>
@@ -23,13 +63,12 @@
         </nav>
     </header>
     <main>
-        <div class="img_container">
-            <img src="https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/0755a48b-bbaf-4dff-8e78-9b489106eec6/logo022.jpg?format=1500w"/>
-        </div>
+            <img class="err_img" src="https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1470175715831-NUJOMI6VW13ZNT1MI0VB/image-asset.jpeg?format=500w"/>
         <div class="err_content">
-            <h1 class="errTitle">AWWW... DON'T CRY.</h1>
+            <center><h1 class="errTitle">AWWW... DON'T CRY.</h1>
             <p>It's just a 404 Error!</p>
             <p>What you’re looking for may have been misplaced in Long Term Memory.</p>
+        </center>
         </div>
     </main>
 </body>
