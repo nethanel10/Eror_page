@@ -5,59 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        *{
+            margin:0px ;
+            padding: 0px;
+        }
+        body{
+            font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+            text-align: center;
+        }
+        h3 {
+            margin-top: 30px;
+        }
+        li {
+            margin: 15px;
+            list-style: none;
+        }
+       .img_container{
+            justify-content: center;
+            align-items: center;
+        
+       }
+       img {
+        width: 300px;
+        height: 300px;
+       }
+       
+        #container_error .error_code_with_error_message h1{
+            color:rgba(0,0,0,0.75) ;
+            font-size:38px;
+            font-weight:lighter;
+        }
+        #container_error h1{
+            margin:10px 0px;
+            
+        }
+
+        
+        a{
+            color:#005ff8;
+        }
+        h2{
+            font-weight:lighter;
+            font-size: 21px;
+
+        }
+       h3 {
+            font-weight:normal;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="img">
-            <img src="https://assets.dropbox.com/www/en-us/illustrations/spot/look-magnifying-glass.svg" alt="">
-        </div>
-        <div class="error_message">
-            <h1>Error (4xx)</h1>
-            <h1>We can't find the page you're looking for.</h1>
-        </div>
-        <div class="helpful_link">
-            <h3>Here are a few links that may be helpful:</h3>
-            <ul>
-                <li><a href="">home</a></li>
-                <li><a href="">Help center</a></li>
-                <li><a href="">Sign in</a></li>
-                <li><a href="">Get a free account</a></li>
-                <li><a href="">Dropbox Plus</a></li>
-                <li><a href="">Dropbox Business</a></li>
-            </ul><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <div class="img">
-            <img src="https://assets.dropbox.com/www/en-us/illustrations/spot/look-magnifying-glass.svg" alt="">
-        </div>
-        <div class="error_message">
-            <h1>Error (4xx)</h1>
-            <h1>We can't find the page you're looking for.</h1>
-        </div>
-        <div class="helpful_link">
-            <h3>Here are a few links that may be helpful:</h3>
-            <ul>
-                <li><a href="">home</a></li>
-                <li><a href="">Help center</a></li>
-                <li><a href="">Sign in</a></li>
-                <li><a href="">Get a free account</a></li>
-                <li><a href="">Dropbox Plus</a></li>
-                <li><a href="">Dropbox Business</a></li>
-            </ul>
-        </div>
+    <div class="img_container">
+        <img src="https://assets.dropbox.com/www/en-us/illustrations/spot/look-magnifying-glass.svg" alt="">
     </div>
-    
+       
+        <div id="container_error">
+                      <div class="error_code_with_error_message">
+                <h1>Error (4xx)</h1>
+                <h2>We can't find the page you're looking for.</h2>
+                
+                
+           
+            <div class="helpful_link">
+                <h3>Here are a few links that may be helpful:</h3>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">Help center</a></li>
+                    <li><a href="">Sign in</a></li>
+                    <li><a href="">Get a free account</a></li>
+                    <li><a href="">Dropbox Plus</a></li>
+                    <li><a href="">Dropbox Business</a></li>
+                </ul>
+</div>
+</div>  
 </body>
 </html>
-        </div>
-    </div>
-    
-</body>
-</html>
+
+      
